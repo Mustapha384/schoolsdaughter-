@@ -1,0 +1,127 @@
+body{
+    background-color: #eb8a03;
+}
+@keyframes rotate{
+    100%{transform: rotateY(360deg);}
+}
+.me{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: auto;
+    padding: auto;
+    gap: 140px;
+    position: relative;
+
+}
+.me li{
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -10px;
+    position: relative;
+    margin-left: -10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.me li:hover{
+    color: #b6e718ad;
+    border-bottom: 5px solid black;
+}
+.dami{
+   margin-left: 750px; 
+   font-size: 35px;
+   font-weight: 800;
+   padding: auto;
+   border: auto;
+   color: #FFF;
+   margin-top: 100px;
+   font-style: italic;
+}
+.bag{
+    margin-left: 750px;
+    font-size: 35px;
+    color: #FFF;
+    font-weight: 800;
+    font-style: italic;
+}
+.bag img{
+    animation-name: rotate;
+    animation-duration: 4s;
+    box-shadow: 0 14px 28px white,
+    0 10px 10px white;
+    transition: .4s;
+    border: 1px solid #FFF;
+}
+.bag img:hover{
+    box-shadow: 0 3px 6px #FFF(0, 0, 0, 0.16)
+    0 3px 6px #fff(0, 0, 0, 0.23) ;
+    transform: translate(0px, -8px)
+}
+.window{
+    margin-top: 10px;
+    position: relative;
+}
+.window a{
+    color: #FFF;
+}
+.window1 a{
+    color: #FFF;
+    margin-top: 10px;
+    position: relative;
+}
+.window2 a{
+    color: #FFF;
+    margin-top: 10px;
+    position: relative;
+}
+.to{
+    margin-left: 750px;
+    margin-top: 10px;
+    position: relative;
+}
+.to img{
+    width: 40px;
+    border-radius: 20px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    box-shadow: 0 14px 28px white,
+    0 10px 10px white;
+    transition: .4s;
+    border: 1px solid #FFF;
+}
+.to img:hover{
+    box-shadow: 0 3px 6px #FFF(0, 0, 0, 0.16)
+    0 3px 6px #fff(0, 0, 0, 0.23) ;
+    transform: translate(0px, -8px)
+}
+.phone{
+   float: left; 
+   margin-left: 100px;
+   margin-top: -550px;
+}
+.phone img{
+    width: 550px;
+    height: 680px;
+    border-radius: 250px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    box-shadow: 0 14px 28px white,
+    0 10px 10px white;
+    transition: .4s;
+    border: 1px solid #FFF;
+}
+.phone img:hover{
+    box-shadow: 0 3px 6px #FFF(0, 0, 0, 0.16)
+    0 3px 6px #fff(0, 0, 0, 0.23) ;
+    transform: translate(0px, -8px)
+}
+.we{
+    font-size: 44px;
+    font-weight: bolder;
+}
+.see{
+    font-size: 50px;
+    font-weight: bolder;
+}
